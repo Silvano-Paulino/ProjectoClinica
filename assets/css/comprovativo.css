@@ -1,0 +1,65 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* FORMATAÇÃO DO CONTEUDO DE CIMA */
+.contentTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentTop .imagem {
+    width: 53px;
+    height: 53px;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h1:nth-child(3) {
+    margin-top: -7px !important;
+}
+
+.comprova {
+    margin-top: 1em;
+    text-align: center;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* MANIPULAÇÃO DA TABLE */
+table {
+    border: solid rgb(105, 104, 104) 2px !important;
+}
+
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+tr {
+    border: solid rgb(105, 104, 104) 2px !important;
+}
+
+th {
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+td {
+    padding: 8px 8em 8px 8px;
+}
+
+.td {
+    border-left: solid rgb(105, 104, 104) 2px !important;
+    padding-right: 8em;
+}

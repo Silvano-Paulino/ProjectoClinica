@@ -1,0 +1,23 @@
+.mod-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 0;
+
+}
+
+.mod-form form {
+    box-shadow: 1px 1px 2px 2px #dddbdb;
+    padding: 2em 2em;
+    border-radius: 6px 6px;
+}
+
+.paraC {
+    font-size: 15px;
+    color: rgb(146, 135, 135);
+}
+
+.formCad {
+    width: 500px;
+}
+
